@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+header {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    font-size: 30px;
+    margin: 100px;
+    border: 1px solid #8b0909;
+    padding: 8px 16px;
+    border-radius: 35px;
+
+}
+*/
+nav {
+    display: flex; 
+    position: fixed;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #a70b0b; 
+    padding: 25px;
+    
+}
+
+.navbar-left h1 {
+    color: #fff; 
+    font-size: 24px;
+    border-left: 5px solid white;
+    padding-left: 30px;
+}
+
+.navbar-right a {
+    color: #fff; /* สีของข้อความเมนูในส่วนขวาของ Navbar */
+    text-decoration: none; /* ไม่เส้นใต้ลิงก์ */
+    margin-left: 20px; /* ระยะห่างระหว่างรายการเมนู */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+    
+
+
+.navbar-right a:hover {
+    text-decoration: underline; /* เมื่อเม้าส์ชี้ไปที่ลิงก์ */
+}
+
+section {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  #home {
+    height: 900px;
+    display: flex;
+    justify-content: space-around ;
+    padding-bottom: 10px;
+    align-items: center;
+    
+  }
+  #profile {
+    height: 1000px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  #contacts {
+    height: 1000px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+
+  }
+
+  img {
+    display: block; /* เพื่อให้รูปแสดงบนบรรทัดที่แยกกัน */
+    margin-bottom: 10px; /* เว้นระยะห่างระหว่างรูปภาพล่างบรรทัด */
+}
+
+  .navbar-right a:hover{
+    background-color: #d7de0a; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    transform: scale(1.2);
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  footer {
+    background-color: #f0f0f0;
+    padding: 2px;
+    text-align: center;
+  }
+
+  .active {
+    background-color: #9e2626;
+  }
+
+  .inactive {
+    background-color: #ff8809;
+  }
